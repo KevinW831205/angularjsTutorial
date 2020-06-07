@@ -1,4 +1,4 @@
-var phonecatApp = angular.module('phonecatApp', []);
+var phonecatApp = angular.module('phonecatApp', ['phoneList']);
 
 // Define the `PhoneListController` controller on the `phonecatApp` module
 // phonecatApp.controller('PhoneListController', function PhoneListController($scope) {
