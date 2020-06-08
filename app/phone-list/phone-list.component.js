@@ -21,6 +21,8 @@ angular.
       let self = this;
       self.orderProp = 'age';
 
+      this.variable = "abcde";
+
       $http.get('phones/phones.json').then(function (response) {
         self.phones = response.data
       })
